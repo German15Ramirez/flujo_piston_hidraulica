@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@theme {
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #f4f1ea;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(28, 27, 25, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background: #1c1b19;
+  color: #f4f1ea;
+}
+
+.rule {
+  border-top: 1px solid #d6d1c4;
+}
